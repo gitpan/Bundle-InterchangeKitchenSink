@@ -1,6 +1,6 @@
 package Bundle::InterchangeKitchenSink;
 
-$VERSION = '0.10';
+$VERSION = '0.11';
 
 1;
 
@@ -71,12 +71,6 @@ SOAP::Lite
 Tie::Watch
 
 Time::HiRes
-
-GD
-
-GD::Text::Align
-
-GD::Graph
 
 =head1 DESCRIPTION
 

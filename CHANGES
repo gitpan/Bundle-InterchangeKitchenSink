@@ -1,0 +1,4 @@
+V0.11 released Wed Jun 25 13:37:37 EDT 2003
+
+-- Remove GD modules from list as build is very problematic and nothing in
+   the core really uses it except survey graphing.
