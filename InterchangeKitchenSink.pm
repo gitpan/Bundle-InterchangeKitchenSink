@@ -1,6 +1,6 @@
 package Bundle::InterchangeKitchenSink;
 
-$VERSION = '0.09';
+$VERSION = '0.10';
 
 1;
 
@@ -104,11 +104,13 @@ infinitesimal chance of causing a cache conflict.
 If you have this module session save speed increases by anywhere from 25-60%.
 Highly recommended for busy systems. 
 
-=item SQL::Statement
+=item SQL::Statement::Hash
 Enables SQL-style search query statements for Interchange. Not used for
 normal SQL queries to SQL databases, only translation to Interchange
 search format (as needed by the DBM databases and any search forms
 based on SQL queries).
+
+This installs the old C-code version, 0.1021.
 
 =item Safe::Hole
 This helps Interchange deal with the object-creation restrictions
