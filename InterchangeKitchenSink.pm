@@ -1,6 +1,6 @@
 package Bundle::InterchangeKitchenSink;
 
-$VERSION = '0.11';
+$VERSION = '0.13';
 
 1;
 
@@ -46,8 +46,6 @@ Tie::ShadowHash
 
 Business::UPS
 
-SQL::Statement::Hash
-
 Storable
 
 Spreadsheet::ParseExcel
@@ -74,7 +72,7 @@ Time::HiRes
 
 =head1 DESCRIPTION
 
-This bundle installs the prerequisites for Interchange as well as some
+This bundle installs the prerequisites for Interchange 5 as well as some
 modules that are not strictly necessary.
 
 (Interchange was formerly known as Minivend.)
