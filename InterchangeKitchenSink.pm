@@ -1,6 +1,6 @@
 package Bundle::InterchangeKitchenSink;
 
-$VERSION = '0.06';
+$VERSION = '0.07';
 
 1;
 
@@ -66,8 +66,6 @@ IO::Stty
 
 IO::Tty
 
-Mail::Sendmail
-
 SOAP::Lite
 
 Tie::Watch
@@ -101,7 +99,10 @@ If you have this module session save speed increases by anywhere from 25-60%.
 Highly recommended for busy systems. 
 
 =item SQL::Statement
-Enables SQL-style search query statements for Interchange.
+Enables SQL-style search query statements for Interchange. Not used for
+normal SQL queries to SQL databases, only translation to Interchange
+search format (as needed by the DBM databases and any search forms
+based on SQL queries).
 
 =item Safe::Hole
 This helps Interchange deal with the object-creation restrictions
@@ -151,7 +152,7 @@ Used for Spreadsheet::*Excel.
 
 =item Image::Size
 
-Needed for [image ...] tag.
+Optional but recommended for [image ...] tag.
 
 =item Tie::ShadowHash
 
@@ -176,10 +177,6 @@ Only needed for supplementary UserTag definitions.
 
 Payment interface links via HTTPS/SSL.
 
-=item Mail::Sendmail
-
-Needed for internal mailing methods not using sendmail.
-
 =item SOAP::Lite
 
 Only needed when employing SOAP.
@@ -194,4 +191,4 @@ Needed for some Intranet functions.
 
 =head1 AUTHOR
 
-Mike Heins, <heins@akopia.com>
+Mike Heins, <mikeh@perusion.net>
