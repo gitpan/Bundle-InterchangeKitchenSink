@@ -1,6 +1,6 @@
 package Bundle::InterchangeKitchenSink;
 
-$VERSION = '0.07';
+$VERSION = '0.09';
 
 1;
 
@@ -46,7 +46,7 @@ Tie::ShadowHash
 
 Business::UPS
 
-SQL::Statement 0.1021
+SQL::Statement::Hash
 
 Storable
 
@@ -71,6 +71,12 @@ SOAP::Lite
 Tie::Watch
 
 Time::HiRes
+
+GD
+
+GD::Text::Align
+
+GD::Graph
 
 =head1 DESCRIPTION
 
