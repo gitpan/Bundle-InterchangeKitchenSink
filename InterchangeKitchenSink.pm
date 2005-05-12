@@ -1,6 +1,6 @@
 package Bundle::InterchangeKitchenSink;
 
-$VERSION = '0.13';
+$VERSION = '1.01';
 
 1;
 
@@ -88,43 +88,43 @@ you will need these modules.
 =over 4
 
 =item Digest::MD5
+
 This module is used to generate unique cache keys. If you don't have it,
 then keys will be computed with a checksum that has a very low but not
 infinitesimal chance of causing a cache conflict.
 
 =item Storable
+
 If you have this module session save speed increases by anywhere from 25-60%.
 Highly recommended for busy systems. 
 
-=item SQL::Statement::Hash
-Enables SQL-style search query statements for Interchange. Not used for
-normal SQL queries to SQL databases, only translation to Interchange
-search format (as needed by the DBM databases and any search forms
-based on SQL queries).
-
-This installs the old C-code version, 0.1021.
-
 =item Safe::Hole
+
 This helps Interchange deal with the object-creation restrictions
 of I<Safe.pm>, used to encourage security.
 
 =item DBI
+
 Most people want to use SQL with Interchange, and this is a requirement.
 You will also need the appropriate DBD module, i.e. DBD::mysql to support
 B<MySQL>.
 
 =item Term::ReadKey
+
 Helps Term::ReadLine::Perl generate completions and editing for makecat
 and other interactive scripts from command line.
 
 =item Term::ReadLine::Perl
+
 Gives you filename completion and command history in the makecat program.
 Not used otherwise.
 
 =item MIME::Base64
+
 Provides HTTP services for internal HTTP server and basic authentication.
 
 =item URI::URL
+
 Provides HTTP primitives for internal HTTP server.
 
 =item HTML::Tagset
@@ -132,14 +132,17 @@ Provides HTTP primitives for internal HTTP server.
 Required by Bundle::LWP.
 
 =item Bundle::LWP
+
 Certain parts of these modules (URI::URL and MIME::Base64) are required
 for Interchange's internal HTTP server. Also, Business::UPS, for calculating
 shipping, requires this.
 
 =item Business::UPS
+
 Enables lookup of shipping costs directly from www.ups.com. Requires Bundle::LWP.
 
 =item IO::Scalar
+
 Used for Spreadsheet::*Excel.
 
 =item Parse::RecDescent
@@ -159,18 +162,23 @@ Optional but recommended for [image ...] tag.
 Needed for pre-fork mode of Interchange, prevents permanent write of configuration.
 
 =item Spreadsheet::ParseExcel
+
 Allows upload of XLS spreadsheets for database import in the UI.
 
 =item Spreadsheet::WriteExcel
+
 Allows output of XLS spreadsheets for database export in the UI.
 
 =item Archive::Tar
+
 Only needed for supplementary UserTag definitions.
 
 =item Archive::Zip
+
 Only needed for supplementary UserTag definitions.
 
 =item Compress::Zlib
+
 Only needed for supplementary UserTag definitions.
 
 =item Crypt::SSLeay
