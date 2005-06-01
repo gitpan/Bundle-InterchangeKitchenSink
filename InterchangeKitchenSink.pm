@@ -1,6 +1,6 @@
 package Bundle::InterchangeKitchenSink;
 
-$VERSION = '1.01';
+$VERSION = '1.02';
 
 1;
 
@@ -41,6 +41,10 @@ Image::Size
 DBI
 
 Safe::Hole
+
+Set::Crontab
+
+Text::Query
 
 Tie::ShadowHash
 
