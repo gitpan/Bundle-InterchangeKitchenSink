@@ -1,6 +1,6 @@
 package Bundle::InterchangeKitchenSink;
 
-$VERSION = '1.02';
+$VERSION = '1.03';
 
 1;
 
@@ -19,6 +19,8 @@ C<perl -MCPAN -e 'install Bundle::InterchangeKitchenSink'>
 Digest::MD5
 
 MIME::Base64
+
+MIME::Lite
 
 URI::URL
 
