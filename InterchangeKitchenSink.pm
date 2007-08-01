@@ -1,6 +1,6 @@
 package Bundle::InterchangeKitchenSink;
 
-$VERSION = '1.04';
+$VERSION = '1.05';
 
 1;
 
@@ -77,6 +77,8 @@ SOAP::Lite
 Tie::Watch
 
 Time::HiRes
+
+Authen::Captcha
 
 =head1 DESCRIPTION
 
