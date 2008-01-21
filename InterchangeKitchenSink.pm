@@ -1,6 +1,6 @@
 package Bundle::InterchangeKitchenSink;
 
-$VERSION = '1.05';
+$VERSION = '1.06';
 
 1;
 
@@ -27,6 +27,10 @@ MIME::Lite
 URI::URL
 
 HTML::Tagset
+
+HTML::Entities
+
+HTML::Parser
 
 Bundle::LWP
 
