@@ -1,6 +1,6 @@
 package Bundle::InterchangeKitchenSink;
 
-$VERSION = '1.06';
+$VERSION = '1.07';
 
 1;
 
@@ -77,8 +77,6 @@ IO::Stty
 IO::Tty
 
 SOAP::Lite
-
-Tie::Watch
 
 Time::HiRes
 
