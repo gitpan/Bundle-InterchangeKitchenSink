@@ -1,6 +1,6 @@
 package Bundle::InterchangeKitchenSink;
 
-$VERSION = '1.07';
+$VERSION = '1.08';
 
 1;
 
@@ -59,6 +59,8 @@ Tie::ShadowHash
 Business::UPS
 
 Storable
+
+Net::IP::Match::Regexp
 
 Spreadsheet::ParseExcel
 
