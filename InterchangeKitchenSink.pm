@@ -1,6 +1,6 @@
 package Bundle::InterchangeKitchenSink;
 
-$VERSION = '1.08';
+$VERSION = '1.09';
 
 1;
 
