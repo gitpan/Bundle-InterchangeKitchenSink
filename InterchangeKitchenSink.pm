@@ -1,6 +1,6 @@
 package Bundle::InterchangeKitchenSink;
 
-$VERSION = '1.09';
+$VERSION = '1.10';
 
 1;
 
@@ -23,6 +23,8 @@ Digest::SHA1
 MIME::Base64
 
 MIME::Lite
+
+JSON
 
 URI::URL
 
